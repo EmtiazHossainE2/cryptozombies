@@ -1,5 +1,6 @@
 import React from 'react'
-import { Banner, Blogs, Brand, BuildZombieArmy,  CodingLesson, CourseFormat, Cta, ImportanceOfToken, NFTRewards, OverView, RoadMap, Token, Victory } from '../../components/Home'
+import { Banner, Blogs, Brand, BuildZombieArmy, CodingLesson, CourseFormat, Cta, ImportanceOfToken,  OverView, Reward, RoadMap, Token } from '../../components/Home'
+import './Home.css'
 
 const Home = () => {
   return (
@@ -12,8 +13,7 @@ const Home = () => {
       {/* <RoadMap /> */}
       <Token />
       <ImportanceOfToken />
-      <NFTRewards />
-      <Victory />
+      <Reward/>
       <Brand />
       <Blogs />
       <Cta />

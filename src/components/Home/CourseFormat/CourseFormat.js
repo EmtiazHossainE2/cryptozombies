@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import courseComplete from '../../../assets/course-complete.png'
+import victory from '../../../assets/zombie-victory.png'
 
 const CourseFormat = () => {
   return (
@@ -15,7 +15,7 @@ const CourseFormat = () => {
           </div>
         </div>
         <div className='basis-1/2 flex justify-center'>
-          <img src={courseComplete} alt="courseComplete" className='h-[423px]'/>
+          <img src={victory} alt="victory" className='h-[423px]'/>
         </div>
       </div>
     </div>
