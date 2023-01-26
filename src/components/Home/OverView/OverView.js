@@ -2,8 +2,9 @@ import React from 'react'
 import students from '../../../assets/students.png'
 
 const OverView = () => {
+  
   return (
-    <div className='container mx-auto section__padding text-white'>
+    <div className="section__padding">
       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
 
         {/************************** Overview Left *************************** */}
@@ -16,7 +17,7 @@ const OverView = () => {
               <p className='p__style'>Students</p>
             </div>
             <div className='lg:basis-1/2'>
-              <h2 className='text-4xl font-bold'>1M+</h2>
+              <h2 className='text-4xl font-bold text-white'>1M+</h2>
               <p className='p__style'>Classes Completed</p>
             </div>
           </div>
