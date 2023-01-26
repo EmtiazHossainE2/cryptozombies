@@ -1,0 +1,27 @@
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand div {
+  flex: 1px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .brand div {
+    flex: 1px;
+    max-width: 150px;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+}
