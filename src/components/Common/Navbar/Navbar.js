@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineCaretDown } from 'react-icons/ai';
+import { FiChevronDown } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png'
 import './Navbar.css'
@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="navbar__links-container relative">
         <p><Link to='/blog'>Blog</Link></p>
         <p><Link to='/courses'>Courses</Link></p>
-        <p><Link to='/' onClick={() => setIsOpen(!isOpen)} className="flex justify-between items-center  gap-x-2">English <AiOutlineCaretDown /></Link></p>
+        <p><Link to='/' onClick={() => setIsOpen(!isOpen)} className="flex justify-between items-center  gap-x-1">English <FiChevronDown size={22} className="font-bold"/></Link></p>
         {isOpen && (
           <div className="absolute right-0 top-5 z-10 bg-white rounded-lg py-2 mt-2">
             <Link to='/' className="block pl-4 pr-8 py-2 text-[#54ada9] font-bold hover:bg-gray-200">English</Link>

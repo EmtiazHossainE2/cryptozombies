@@ -156,14 +156,28 @@
   }
 
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 430px) {
   .navbar__menu-container {
-    right: 110px;
+    right: 100px;
   }
 }
-@media screen and (max-width: 376px) {
+
+@media screen and (max-width: 426px) {
+  .navbar__menu-container {
+    right: 105px;
+  }
+}
+
+@media screen and (max-width: 391px) {
   .navbar__menu-container {
     right: 75px;
+  }
+}
+
+
+@media screen and (max-width: 362px) {
+  .navbar__menu-container {
+    right: 65px;
   }
 }
 
