@@ -2,14 +2,14 @@ import React from 'react'
 import students from '../../../assets/students.png'
 
 const OverView = () => {
-  
+
   return (
     <div className="section__padding">
       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
 
         {/************************** Overview Left *************************** */}
         <div className='basis-1/2 mt-10 '>
-          <h2 className='text-white text-center lg:text-start text-3xl lg:text-5xl font-bold lg:leading-[56px]'>Why CryptoZombies <br className='hidden lg:block' /> is Different</h2>
+          <h2>Why CryptoZombies <br className='hidden lg:block' /> is Different</h2>
 
           <div className='flex flex-col md:flex-row py-8 gap-5 justify-evenly items-center text-center lg:text-start'>
             <div className='lg:basis-1/2'>
