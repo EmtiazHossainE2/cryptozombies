@@ -13,6 +13,17 @@ a {
   color: unset;
 }
 
+.gradient__text {
+  background: linear-gradient(241.71deg, #32C5FF -23.05%, #A3BF4A 95.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px auto 0px 0px;
+  text-shadow: 0px 0px transparent;
+}
 
 
 .zombieBtn button {
