@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 576px) {
   .navbar {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .navbar__menu-container {
@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 426px) {
   .navbar__menu-container {
-    right: 105px;
+    right: 115px;
   }
 }
 
