@@ -1,10 +1,13 @@
+import React from 'react'
+import './App.css'
+import Home from './pages/home/Home'
 
-function App() {
+const App = () => {
   return (
     <main>
-      <h2 className="text-right text-red-500 text-4xl">Hello Cryptozombies</h2>
+      <Home />
     </main>
-  );
+  )
 }
 
-export default App;
+export default App

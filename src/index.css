@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+
+  --gradient-bg: linear-gradient(89.97deg, #1a4064 1.84%, #972d92 102.67%);
+  --gradient-text: linear-gradient(241.71deg, #32C5FF -23.05%, #A3BF4A 95.65%);
+  
+  
+  --color-bg: #0E0B30;
+  --color-footer: #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+}
 
 @media only screen and (max-width: 576px) {
   
