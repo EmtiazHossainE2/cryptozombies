@@ -3,7 +3,7 @@ import zombieArmy from '../../../assets/zombie-army.png'
 
 const BuildZombieArmy = () => {
   return (
-    <div className="section__padding mt-3">
+    <div className="container mx-auto section__padding mt-3">
       <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-5'>
         <div className='basis-1/2 flex justify-center'>
           <img src={zombieArmy} alt="zombie-army" />

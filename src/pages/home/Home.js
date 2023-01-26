@@ -3,13 +3,13 @@ import { Banner, Blogs, Brand, BuildZombieArmy,  CodingLesson, CourseFormat, Cta
 
 const Home = () => {
   return (
-    <main className='container mx-auto'>
+    <main>
       <Banner />
       <OverView />
       <CodingLesson />
       <BuildZombieArmy />
       <CourseFormat />
-      <RoadMap />
+      {/* <RoadMap /> */}
       <Token />
       <ImportanceOfToken />
       <NFTRewards />

@@ -4,7 +4,7 @@ import students from '../../../assets/students.png'
 const OverView = () => {
 
   return (
-    <div className="section__padding">
+    <div className="container mx-auto section__padding">
       <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
 
         {/************************** Overview Left *************************** */}

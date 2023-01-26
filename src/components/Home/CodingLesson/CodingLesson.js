@@ -3,7 +3,7 @@ import codingImg from '../../../assets/codingImg.png'
 
 const CodingLesson = () => {
   return (
-    <div className="section__padding mt-3">
+    <div className="container mx-auto section__padding mt-3">
       <div className='flex flex-col lg:flex-row justify-between items-center gap-5'>
         <div className='basis-1/2 text-center lg:text-start'>
           <h2>Interactive Coding Lessons</h2>

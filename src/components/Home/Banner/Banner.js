@@ -4,7 +4,7 @@ import banner from '../../../assets/zombie-banner.png'
 
 const Banner = () => {
   return (
-    <div className='section__padding'>
+    <div className='container mx-auto section__padding'>
       <div className='flex flex-col lg:flex-row justify-between items-center gap-5'>
         <div className='basis-1/2 text-center lg:text-start'>
           <h2>Learn to Code Blockchain DApps by Building Simple Games</h2>
