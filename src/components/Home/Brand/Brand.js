@@ -11,7 +11,7 @@ import './Brand.css'
 const Brand = () => {
   return (
     <div className="container mx-auto section__padding">
-      <div className="brand">
+      <div className="brand py-8">
         <div><img src={Binance} alt="Binance" /></div>
         <div><img src={Chainlink} alt="Chainlink" /></div>
         <div><img src={alchemy} alt="alchemy" /></div>

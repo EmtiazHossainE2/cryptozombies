@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../../assets/logo.png'
+import ChatBox from '../ChatBox/ChatBox'
 import './Footer.css'
 
 const Footer = () => {
@@ -35,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* ****************************** * Footer Bottom ****************************** */}
-        <div className='flex flex-col lg:flex-row text-center lg:text-start justify-between items-center lg:gap-5 py-7'>
+        <div className='flex flex-col lg:flex-row text-center lg:text-start justify-between items-center gap-5 py-7'>
           <p className='text-[#A2A0B1]'>© Copyright {currentYear} Cryptozombies All Rights Reserved</p>
           <div className='flex justify-center lg:justify-between gap-5 link'>
             <Link to='/'>Privacy Policy</Link>
@@ -45,6 +46,8 @@ const Footer = () => {
         </div>
       </div>
 
+      
+      {/* <ChatBox/> */}
     </footer>
   )
 }
