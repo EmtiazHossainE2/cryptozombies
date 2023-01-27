@@ -10,7 +10,7 @@ const Home = () => {
       <CodingLesson />
       <BuildZombieArmy />
       <CourseFormat />
-      {/* <RoadMap /> */}
+      <RoadMap />
       <Token />
       <ImportanceOfToken />
       <Reward/>

@@ -1,0 +1,243 @@
+.road_map_main_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". . .";
+  gap: 100px 30px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.road_map_data_box {
+  display: grid;
+  width: 100%;
+}
+
+.road_map_single_data_box_one,
+.road_map_single_data_box_two,
+.road_map_single_data_box_three {
+  position: relative;
+}
+
+.road_map_single_data_box_one::before {
+  position: absolute;
+  content: "";
+  left: -11px;
+  bottom: -9px;
+  width: 21px;
+  height: 21px;
+  background: #A3BF4A;
+  border-radius: 50%;
+  border: 1px solid #A3BF4A;
+  padding: 10px;
+}
+
+.road_map_single_data_box_one_date {
+  left: -35px;
+  bottom: -55px;
+  color: #A3BF4A;
+  position: absolute;
+}
+
+.road_map_single_data_box_one_date h5,
+.road_map_single_data_box_two_date h5,
+.road_map_single_data_box_three_date h5 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.road_map_single_data_box {
+  padding-left: 20px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.3);
+  display: grid;
+  width: 100%;
+  gap: 30px 0px;
+  padding-bottom: 60px;
+  height: 100%;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.road_map_single_data_box a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF !important;
+  mix-blend-mode: normal;
+  display: grid;
+  width: 100%;
+  gap: 4px 0px;
+  opacity: 1 !important;
+  position: relative;
+}
+
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+.road_map_single_data_box a.road_map_list_one::before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #A3BF4A;
+  border-radius: 50%;
+}
+
+.road_map_single_data_box a span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF !important;
+  mix-blend-mode: normal;
+  opacity: 1 !important;
+}
+
+
+
+/* Box Two ******************** */
+
+.road_map_single_data_box_two::before {
+  position: absolute;
+  content: "";
+  left: -11px;
+  bottom: -9px;
+  width: 21px;
+  height: 21px;
+  background: #32C5FF;
+  border-radius: 50%;
+  border: 1px solid #32C5FF;
+  padding: 10px;
+}
+
+.road_map_single_data_box_two_date {
+  left: -35px;
+  bottom: -55px;
+  color: #32C5FF;
+  position: absolute;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.road_map_single_data_box a.road_map_list_two::before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #32C5FF;
+  border-radius: 50%;
+}
+
+
+/* Box Three  */
+.road_map_single_data_box_three::before {
+  position: absolute;
+  content: "";
+  left: -11px;
+  bottom: -9px;
+  width: 21px;
+  height: 21px;
+  background: #EE4492;
+  border-radius: 50%;
+  border: 1px solid #EE4492;
+  padding: 10px;
+}
+
+.road_map_single_data_box_three_date {
+  left: -22px;
+  bottom: -55px;
+  color: #EE4492;
+  position: absolute;
+}
+
+.road_map_single_data_box a.road_map_list_three:first-child:before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #D26FEB;
+  border-radius: 50%;
+}
+
+.road_map_single_data_box a.road_map_list_three:nth-child(2):before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #EE4492;
+  border-radius: 50%;
+}
+
+.road_map_single_data_box a.road_map_list_three:nth-child(3):before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #F95C5C;
+  border-radius: 50%;
+}
+
+.road_map_single_data_box a.road_map_list_three:nth-child(4):before {
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #F7B500;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 769px) {
+  .road_map_main_section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". .";
+  }
+
+  .road_map_single_data_box_one_date {
+    bottom: -50px;
+  }
+  .road_map_single_data_box_one_date h5,
+  .road_map_single_data_box_two_date h5 {
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .road_map_single_data_box_three_date h5 {
+    font-size: 18px;
+    margin-left: 22px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .road_map_main_section {
+    grid-template-columns: 1fr;
+    grid-template-areas: ".";
+  }
+
+}
