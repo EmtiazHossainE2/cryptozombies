@@ -1,0 +1,53 @@
+.Cta {
+  width: 40%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+
+.Cta input {
+  flex: 2;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #616161;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 5px 15px;
+  min-height: 50px;
+  font-family: var(--font-family);
+  outline: none;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.Cta button {
+  flex: 0.6;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 28px;
+  background: linear-gradient(242.77deg, #32C5FF -12.54%, #EE4492 113.49%);
+  border: unset;
+  padding: 0 1.4rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Cta {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Cta {
+    width: 100%;
+  }
+}

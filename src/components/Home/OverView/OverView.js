@@ -9,7 +9,7 @@ const OverView = () => {
 
         {/************************** Overview Left *************************** */}
         <div className='basis-1/2 mt-10 '>
-          <h2>Why CryptoZombies <br className='hidden lg:block' /> is Different</h2>
+          <h2 className='text-center lg:text-start'>Why CryptoZombies <br className='hidden lg:block' /> is Different</h2>
 
           <div className='flex flex-col md:flex-row py-8 gap-5 justify-evenly items-center text-center lg:text-start'>
             <div className='lg:basis-1/2'>

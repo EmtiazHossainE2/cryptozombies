@@ -6,7 +6,7 @@ const Blog = ({ blog }) => {
   const { _id,img, category, subCat, event, title, date } = blog
   return (
     <div>
-      <Link to={`/blog/${_id}`}><img src={img} alt={title} className="lg:h-[350px] " /></Link>
+      <Link to={`/blog/${_id}`}><img src={img} alt={title} className="md:h-[180px] lg:h-[350px] " /></Link>
       <div className='lg:px-5 flex flex-col gap-y-2 py-4'>
         <div className='text-[#8CEAFB] cursor-pointer'>
           {category} {`${subCat === "" ? "" : "●"}`} {subCat} {`${event === "" ? "" : "●"}`} {event}

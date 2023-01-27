@@ -15,7 +15,7 @@ const Blogs = () => {
           <Blog key={index} blog={blog} />
         ))}
       </div>
-      <div className='text-center my-20'>
+      <div className='text-center mt-10 md:mt-16 '>
         <div className="zombieBtn">
           <button className=''><Link to='/blogs'>View All Post</Link></button>
         </div>
