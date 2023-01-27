@@ -17,7 +17,9 @@ const Blogs = () => {
       </div>
       <div className='text-center mt-10 md:mt-16 '>
         <div className="zombieBtn">
-          <button className=''><Link to='/blog'>View All Post</Link></button>
+          <Link to='/blog'>
+            <button className=''>View All Post</button>
+          </Link>
         </div>
       </div>
     </div>
