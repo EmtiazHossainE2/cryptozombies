@@ -3,13 +3,14 @@ import Main from "../../layout/Main/Main";
 import Blog from "../../pages/blog/Blog";
 import Courses from "../../pages/courses/Courses";
 import Home from "../../pages/home/Home";
-import { blogData } from '../../components/Home/Blogs/blogData'
 import DetailsNews from "../../components/Home/Blogs/DetailsNews";
+import DisplayError from "../../components/Common/DisplayError/DisplayError";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <DisplayError />,
     children: [
       {
         path: "/",
