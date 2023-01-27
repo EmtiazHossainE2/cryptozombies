@@ -1,0 +1,18 @@
+.footer__section{
+  background: transparent;
+  color: #fff;
+  float: left;
+  width: 100%;
+  padding: 0px 15px;
+  background-image: url(https://cryptozombies.io/17f3dcfaa71f4776a1c6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.link a {
+  color: #A2A0B1;
+}
+.link a:hover {
+  color: #717076;
+}
